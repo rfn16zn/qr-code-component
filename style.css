@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+}
+
+:root {
+  --slate-900: #1F314F;
+  --slate-500: #68778D;
+  --slate-300: #D5E1EF;
+  --white: #fff;
+
+  --space-500: 2.5em;
+  --space-300: 1.5em;
+  --space-200: 1em;
+}
+
+body {
+  background-color: var(--slate-300);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Outfit", serif;
+}
+
+.card {
+  width: 320px;
+  background-color: var(--white);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-200) var(--space-200) var(--space-500) var(--space-200);
+}
+
+.card__image {
+  margin-bottom: var(--space-300);
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+.card__content {
+  padding: 0 var(--space-200);
+  text-align: center;
+}
+
+.card__title {
+  color: var(--slate-900);
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-bottom: var(--space-200);
+}
+
+.card__text {
+  color: var(--slate-500);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.2;
+  line-height: 1.4;
+}
