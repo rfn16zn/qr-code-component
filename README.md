@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). I would appreciate it to get feedback from you.
+This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
 ## Overview
 
@@ -18,4 +18,3 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- (CSS Grid) "I'm going to try building this project again with CSS Grid (template and/or areas) as well"
